@@ -9,9 +9,9 @@ const imgCollection = [
   'img/02.webp' , 
   'img/03.webp' , 
   'img/04.webp' , 
-  'img/05.webp' 
+  'img/05.webp' ,
 ];
-const imgCounter = 0;
+let imgCounter = 0;
 // resetto
 
 itemsWrapper.innerHTML = '';
@@ -20,7 +20,7 @@ itemsWrapper.innerHTML = '';
 
 for(let i = 0 ; i < imgCollection.length ; i++){
   const image = imgCollection[i];
-  itemsWrapper.innerHTML = `<img src="${image}" class="item hide">`;
+  itemsWrapper.innerHTML = `<img src="${image}" class="item hide" >`;
 };
 
 const itemCollection = document.getElementsByClassName('item')
@@ -28,6 +28,14 @@ itemCollection[imgCounter].classList.remove('hide');
 
 
 
-nextBtn.addEventListener('clicl' , function(){
-  
+nextBtn.addEventListener('click' , function(){
+  itemCollection[imgCounter].classList.add('hide');
+  imgCounter++;
+  itemCollection[imgCounter].classList.remove('hide');
+})
+
+prevBtn.addEventListener('click' , function(){
+  itemCollection[imgCounter].classList.add('hide');
+  imgCounter--;
+  itemCollection[imgCounter].classList.remove('hide');
 })
