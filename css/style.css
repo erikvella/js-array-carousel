@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
+  background-color: rgb(0, 135, 135);
 }
 
 .container{
