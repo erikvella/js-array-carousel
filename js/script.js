@@ -12,9 +12,6 @@ const imgCollection = [
   'img/05.webp' ,
 ];
 let imgCounter = 0;
-// resetto
-
-itemsWrapper.innerHTML = '';
 
 
 
