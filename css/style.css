@@ -22,7 +22,7 @@
   width: 20%;
   height: 60%;
   background-color: rgb(136, 94, 175);
-
+  position: relative;
 }
 .anteprima-foto{
   border: 1px solid black;
@@ -38,7 +38,7 @@
 }
 .slider{
   height: 100%;
-  position: relative;
+  
 }
 
 .items-wrapper{
