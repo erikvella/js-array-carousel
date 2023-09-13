@@ -15,10 +15,27 @@
 .container{
   width: 60%;
   height: 60%;
-  margin: 0 auto;
+  
   background-color: rgb(88, 1, 1);
 }
+.anteprima{
+  width: 20%;
+  height: 60%;
+  background-color: rgb(136, 94, 175);
 
+}
+.anteprima-foto{
+  border: 1px solid black;
+  height: 20%;
+  width: 100%;
+  
+}
+
+.anteprima-foto img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .slider{
   height: 100%;
   position: relative;

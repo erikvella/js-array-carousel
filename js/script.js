@@ -1,4 +1,8 @@
 // 1 prendo tutti gli elementi 
+// 2 creo una lista con tutte le foto (array)
+// 3 creo un ciclo per generare le foto dinamicamente
+// 4 creo dei trigger al click delle freccette
+// 5 stabilisco le condizioni secondo le quali i bottono spariscono
 
 const itemsWrapper = document.querySelector('.items-wrapper');
 const nextBtn = document.querySelector('.up');
